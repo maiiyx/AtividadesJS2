@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik+Iso&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    color: #FFFFFF;
+    background-color: #81C6E8;
+    font-family: 'Merriweather', serif;
+}
+
+header{
+    color: #5837D0;
+    font-size: 30px;
+}
+
+label{
+    text-align: center;
+}
+
+input{
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #BFEAF5;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.6rem;
+
+    min-height: 100vh;
+}
+
+article .output{
+    width: 20rem;
+    height: 20rem;
+    background-color: #5DA7DB;
+}
+
+article .content{
+    padding: 30px;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    background-color: #5DA7DB;
+}
+
+.caixas{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    display: flex;
+    gap: 5rem;
+}
+
+.filme{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.duracao{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao{
+    margin-top: 15px;
+}
+
+button{
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 15rem;
+    height: 40px;
+    background-color: #5837D0;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.content{
+    border-radius: 3rem;
+}
+
+.output{
+    border-radius: 3rem;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.resultado{
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Rubik+Iso&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    color: #FFFFFF;
+    background-color: #C6CBEF;
+}
+
+
+label{
+    text-align: center;
+}
+
+input{
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #C6CBEF;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1.6rem;
+
+    min-height: 100vh;
+}
+
+button{
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 15rem;
+    height: 40px;
+    background-color: #494CA2;
+    color: #FFFFFF;
+}
+
+article .output{
+    width: 20rem;
+    height: 20rem;
+    background-color: #8186D5;
+}
+
+article .content{
+    padding: 30px;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    background-color: #8186D5;
+}
+
+.titulo{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.caixas{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    display: flex;
+    gap: 5rem;
+}
+
+.veiculo{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.preco{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao{
+    margin-top: 10px;
+}
+
+.content{
+    border-radius: 3rem;
+}
+
+.output{
+    border-radius: 3rem;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.resposta{
+    margin-top: 30px;
+    align-items: center;
+    padding: 15px;
+}

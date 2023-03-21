@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Revenda de Veículos</title>
+</head>
+<body>
+
+    <main>
+        <section>
+            <header class="titulo">
+                <h1>Revenda de Veículos</h1>
+            </header>
+
+            <article class="caixas">
+
+                <div class="content">
+                    <div class="veiculo">
+                        <label for="inName">Veículo: </label>
+                        <input type="text" id="inName">
+                    </div>
+
+                    <div class="preco">
+                        <label for="inPreco">Preço R$: </label>
+                        <input type="number" id="inPreco">
+                    </div>
+
+                    <div class="botao">
+                        <button id="btnConverter">Ver Promoção</button>
+                    </div>
+                </div>
+
+                <div class="output">
+                    <p class="resposta" id="outName"></p>
+                    <p class="resposta" id="outPreco"></p>
+                    <p class="resposta" id="outDivisao"></p>
+                </div>
+
+            </article>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
